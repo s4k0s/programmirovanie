@@ -1,1 +1,20 @@
- 
+'''
+Задача 4. «Кассовый аппарат»
+Напишите программу для магазина, которая считает общую стоимость товаров в корзине.
+'''
+counter = 0
+
+while True:
+    counter_pozition = int(input())
+    if counter_pozition < 0:
+        print("Ну братан не дури мне мозги, где то ты ошибся, не может быть цена меньше 0")
+        continue
+    if counter_pozition > 0:
+        counter += counter_pozition
+    if counter_pozition == 0:
+        break
+if counter >= 1000:
+    counter *= (1 - 10 / 100)
+print(counter)
+
+<3
