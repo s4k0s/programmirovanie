@@ -1,8 +1,0 @@
-n = int(input())
-spiske   = []
-
-for i in range(n):
-    alol = input()
-    spiske.extend(alol)
-
-print(spiske)
