@@ -1,1 +1,12 @@
+def is_valid_triangle(side1, side2, side3):
+    return (side1 < side2 + side3 and
+            side2 < side1 + side3 and
+            side3 < side1 + side2)
 
+side1 = int(input("Введи первую сторону треугольника "))
+side2 = int(input("Введи вторую сторону треугольника "))
+side3 = int(input("Введи третью сторону треугольника "))
+
+print(is_valid_triangle(side1, side2, side3))
+
+<3
