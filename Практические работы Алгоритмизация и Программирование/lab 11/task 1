@@ -1,1 +1,19 @@
 ваще если честно какая то лабуда ниче не понятно
+
+update спустя день
+
+вроде чето понял но все равно шняга шняжная
+
+DAYS_IN_YEAR = 365
+DAYS_28 = 28
+DAYS_30 = 30
+DAYS_31 = 31
+
+for n in range(1, DAYS_IN_YEAR // DAYS_28 + 1):
+    for k in range(1, DAYS_IN_YEAR // DAYS_30 + 1):
+        remaining = DAYS_IN_YEAR - DAYS_28 * n - DAYS_30 * k
+        if remaining > 0 and remaining % DAYS_31 == 0:
+            m = remaining // DAYS_31
+            print(n, k, m)
+
+<3
