@@ -1,0 +1,24 @@
+class Monster:
+    def __init__(self, name='Неизвестный игрочко', hp = 100, dmg = 10):
+
+        self.name = name
+
+        self.hp = hp
+
+        self.dmg = dmg
+
+        print(f" Имя: {self.name}")
+
+        print(f" Здоровье: {str(self.hp)}")
+
+        print(f" Урон: {str(self.dmg)}")
+
+        print("---------------")
+
+name1, hp1, dmg1 = (input('введитед анные о монстре').split())
+
+name2, hp2, dmg2 = (input("введите джанные о монстрике").split())
+
+m1 = Monster(name1, hp1, dmg1)
+
+m2 = Monster(name2, hp2, dmg2)
