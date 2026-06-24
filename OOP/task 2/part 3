@@ -1,0 +1,23 @@
+class Monster:
+    def __init__(self,name,power,hp):
+        self.name = name
+        self.power = power
+        self.hp = hp
+        print(f"Монстр\n {self.name}\n Сила {self.power}\n Здоровье {self.hp}\n")
+
+    def mutate(self):
+        self.power += 5
+        print(f"{self.name} мутирует! Сила увеличена!")
+        print(f"Сила {self.name} теперь равна {self.power}")
+        print()
+
+    def rest(self):
+        self.hp += 10
+        print(f"{self.name} отдыхает в склепе! Здоровье восстановлено!")
+        print(f"Здоровье {self.name} теперь равно {self.hp}")
+        print()
+
+  
+lucan = Monster(name='Люкан',power=15,hp=90)
+lucan.mutate()
+lucan.rest()
