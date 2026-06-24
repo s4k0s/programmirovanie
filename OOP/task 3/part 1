@@ -1,0 +1,10 @@
+class DarkEntinity:
+    def __init__(self,name,species,danger_level):
+        self.__name = name
+        self.__species = species
+        self.__danger_level = danger_level
+
+
+boss = DarkEntinity("Балор","Высший демон",99)
+
+print(f"Данные из гримуара: {boss._DarkEntinity__name}, {boss._DarkEntinity__species}, Уровень угрозы - {boss._DarkEntinity__danger_level}")
