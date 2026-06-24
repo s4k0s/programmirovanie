@@ -8,5 +8,6 @@ class Monster:
         print(f"Дамаг монстра = {self.dmg}")
         print()
 
+
 m1 = Monster("Дракула",120,35)
 m2 = Monster("Люкан",100,40)
