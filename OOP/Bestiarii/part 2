@@ -15,6 +15,7 @@ class Monster:
 
         print("---------------")
 
+
 name1, hp1, dmg1 = (input('введитед анные о монстре').split())
 
 name2, hp2, dmg2 = (input("введите джанные о монстрике").split())
