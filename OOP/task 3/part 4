@@ -1,0 +1,36 @@
+class Werevolf:
+    def __init__(self, name, form, power):
+
+        self.__name = "Гриша"
+
+        self.__form = "Человек"
+
+        self.__power = 15
+
+    
+
+    def get_status(self):
+
+        print(f"{self.__name} сейчас является: {self.__form}")
+
+        return self.__form
+
+    
+
+    def transform(self):
+
+        if self.__form == "Человек":
+
+            self.__form == "Оборотень"
+
+            self.__power == 45
+
+            print(f"{self.__name} обрастает шерстью!")
+
+        if self.__form ==  "Оборотень":
+
+            self.__form == "Человек"
+
+            self.__power == 15
+
+            print(f"{self.__name} перевоплатился в человека!")
