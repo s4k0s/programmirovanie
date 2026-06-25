@@ -1,4 +1,4 @@
-class Werevolf:
+class Werewolf:
     def __init__(self, name, form, power):
 
         self.__name = "Гриша"
